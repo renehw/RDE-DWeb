@@ -1,0 +1,187 @@
+.body{
+    background-color: #1c4b39;
+}
+
+/* .topics{
+    background-color: #086637;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 1.20vw;
+    color: aliceblue;
+} */
+
+#start{
+    background-color: #086637;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 1.20vw;
+    color: aliceblue;
+    margin: 0vw;
+    padding: 4vw;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    margin: 2rem;
+    border-style: solid;
+    border-color: #3b3b3b;
+    border-width: 0rem;
+    border-radius: 5rem 5rem 5rem 5rem;
+    box-shadow: 5px 5px 5vw 1vw rgba(0, 0, 0, 0.99);
+}
+
+.title{
+    text-align: center;
+    text-shadow: 1.5px 2px 8px #000000;
+}
+
+.text{
+    background-color: #086637;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 1.20vw;
+    color: aliceblue;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: justify;
+    margin: 7rem;
+    padding: 3rem;
+    background-image: url(../image/hot-air-balloon-3_blur.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5rem 5rem 5rem 5rem;
+    box-shadow: 5px 5px 5vw 1vw rgba(0, 0, 0, 0.99);
+}
+
+.usoScript{
+    background-color: #086637;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 1.20vw;
+    color: aliceblue;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    padding: 3rem;
+    background-image: url(../image/hot-air-balloon-3_blur.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5rem 5rem 5rem 5rem;
+    box-shadow: 5px 5px 5vw 1vw rgba(0, 0, 0, 0.99);
+}
+
+.operacao {
+    background-color: #086637;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 1.20vw;
+    color: aliceblue;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    padding: 3rem;
+    background-image: url(../image/hot-air-balloon-3_blur.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5rem 5rem 5rem 5rem;
+    box-shadow: 5px 5px 5vw 1vw rgba(0, 0, 0, 0.99);
+}
+
+#tabuada{
+    background-color: #086637;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 1.20vw;
+    color: aliceblue;
+    margin-bottom: 5rem;
+    margin-right: 17rem;
+    margin-left: 17rem;
+    padding: 1rem;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5rem;
+    box-shadow: 5px 5px 5vw 1vw rgba(0, 0, 0, 0.99);
+}
+
+#arrays{
+    background-color: #086637;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 1.20vw;
+    color: aliceblue;
+    margin-bottom: 5rem;
+    margin-right: 23rem;
+    margin-left: 23rem;
+    padding: 1rem;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5rem;
+    box-shadow: 5px 5px 5vw 1vw rgba(0, 0, 0, 0.99);
+}
+
+#logo{
+    height: 10rem;
+}
+
+#video{
+    width: 750px;
+    margin:0 auto;
+    display: block;
+}
+
+a {
+    font-weight: 400;
+    color: #bdbdc1;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 2px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-shadow: 2px 3px 5px #080808;
+}
+
+a:hover {
+    color: #101013;
+    transition: 0.5s;
+    border: 1px solid #2c810b;
+    padding: 2px;
+    background: #12c430;
+    border-radius: 5px;
+    text-shadow: 2px 2px 3px #09911b;
+}
+
+button {
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: gainsboro;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus, button:hover{
+    box-shadow: 5px 0px 9px #110f38;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+input{
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: gainsboro;
+}

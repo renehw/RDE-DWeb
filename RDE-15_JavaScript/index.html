@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento Web</title>
+    <link rel="stylesheet" href=".style/style.css">
+</head>
+<body class="body">
+    <div id="start">
+        <img id="logo" src="img/talk-sobre-html-javascript-js-css-femug-ramiro.png" alt="img-web"><br>
+        <h1>
+            Desenvolvimento Web
+        </h1>
+        <script rel="text/javascript" src=".js/scripts.js"></script>            
+    </div>
+
+    <div class="text">
+        <h2 class="title">JavaScript</h2>
+        <p>
+            O javascript é uma linguagem de programação que está em ascenção atualmente, compondo boa parte das paginas web, esta linguagem é basicamente os musculos de uma pagina, obviamente é uma forma leiga de dizer. Na pratica o <b><a target="_blank" href="https://www.javascript.com/" title="JavaScript">JavaScript</a></b> tambem conhecido como <i>Js</i> tem como responsabilidade junto do <b><a target="_blank" href="https://www.w3schools.com/html/" title="HTML">HTML</a></b> e <b><a target="_blank" href="https://www.w3schools.com/css/" title="CSS">CSS</a></b> compor a base do front-end. Quando me refiro que ela pode ser o musculo do site quero dizer que com ela podemos dar mobilidade para objetos em nosso site, fazer calculos e exibir caixas de dialogo, no geral o <i>Js</i> pode fazer toda a parte logica da pagina.
+            <br><br>
+            <object id="video" width="425" height="344" data="https://www.youtube.com/embed/Fu6p9TidKZc"></object> 
+        </p>
+        
+    </div>
+
+    <div class="usoScript">
+        <h2 class="title">Formas de uso do JavaScript no HTML</h2>
+        <p>
+            Existem 3 formas de aplicar o JavaScript no HTML.
+        </p>
+            <p class="item">
+                Script em linha no Body:
+                <br>
+                <button type="button" onclick="alert('Este é um script em linha')">Em linha</button>
+            </p>
+            <p class="item">
+                Script incorporado no Body:
+                <br>
+                <button type="button" onclick="incorporado()">No Body</button>
+                <script >
+                    function incorporado(){
+                        confirm("Essa é uma forma de JavaScript incorporada no body")
+                    }
+                </script>
+            </p>
+            <p class="item">
+                Script em arquivo externo:
+                <br>
+                <button type="button" onclick="noExter()">Externo</button>
+            </p>
+    </div>
+
+
+    <div class="operacao">
+        <h2 class="title">Operação soma/subtração</h2>
+        <p>
+            Entre com o primeiro valor: <br>
+            <input type="text" id="n1" placeholder="Insira um valor"><br><br>
+            Entre com o segundo valor: <br>
+            <input type="text" id="n2" placeholder="Insira um valor"><br>
+            <input type="button" value="Somar" onclick="somar()" >
+            <input type="button" value="Subtrair" onclick="sub()" >
+            <div id="resultado"> </div>
+            <div id="sub"> </div>
+
+            <p>
+                Codigo da função Somar: <br>
+                <img src="img/soma.png" alt="soma">
+            </p>
+            <p>
+                Codigo da função Subtrair: <br>
+                <img src="img/subtracao.png" alt="subtracao">
+            </p>
+        </p>
+    </div>
+
+    <div id="tabuada">
+        <h2 class="title">Operação de multiplicação</h2>
+        <input type="number" onkeyup="mult()" id="numTab" placeholder="Insira um número">
+        <p id="tabuadas" hidden="true">
+            <span id="numero0"></span> x 0 =
+            <span id="result0"></span> <br>
+
+            <span id="numero1"></span> x 1 =
+            <span id="result1"></span> <br>
+
+            <span id="numero2"></span> x 2 =
+            <span id="result2"></span> <br>
+
+            <span id="numero3"></span> x 3 =
+            <span id="result3"></span> <br>
+
+            <span id="numero4"></span> x 4 =
+            <span id="result4"></span> <br>
+
+            <span id="numero5"></span> x 5 =
+            <span id="result5"></span> <br>
+
+            <span id="numero6"></span> x 6 =
+            <span id="result6"></span> <br>
+
+            <span id="numero7"></span> x 7 =
+            <span id="result7"></span> <br>
+
+            <span id="numero8"></span> x 8 =
+            <span id="result8"></span> <br>
+
+            <span id="numero9"></span> x 9 =
+            <span id="result9"></span> <br>
+
+            <span id="numero10"></span> x 10 =
+            <span id="result10"></span> <br>
+        </p>
+
+        <p>
+            Codigo da função de multiplicação: <br>
+            <img src="img/multiplicao.png" alt="multiplicação">
+        </p>
+    </div>
+
+    <div id="arrays">
+        <h2 class="title">Arrays</h2>
+        <p>
+            Arrays são estruturas de lista, onde é possivel adicionar valores dentro desta lista, fazendo um armazenamento de todas as variaveis adicionadas.
+        </p>
+        <br>
+        <button type="button" onclick="array()">Arrays</button>
+    </div>
+    
+</body>
+</html>
