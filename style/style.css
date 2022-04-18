@@ -40,7 +40,7 @@
     background-image: url(../image/hot-air-balloon-3_blur.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 5rem 5rem 5rem 5rem;
+    border-radius: 3rem;
     box-shadow: 5px 5px 5vw 1vw rgba(0, 0, 0, 0.99);
 }
 
@@ -59,7 +59,7 @@
     background-image: url(../image/hot-air-balloon-3_blur.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 5rem 5rem 5rem 5rem;
+    border-radius: 3rem;
     box-shadow: 5px 5px 5vw 1vw rgba(0, 0, 0, 0.99);
 }
 
@@ -80,7 +80,7 @@
     background-image: url(../image/hot-air-balloon-3_blur.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 5rem 5rem 5rem 5rem;
+    border-radius: 3rem;
     box-shadow: 5px 5px 5vw 1vw rgba(0, 0, 0, 0.99);
 }
 
@@ -97,7 +97,7 @@
     text-align: center;
     background-position: center;
     background-size: cover;
-    border-radius: 5rem;
+    border-radius: 3rem;
     box-shadow: 5px 5px 5vw 1vw rgba(0, 0, 0, 0.99);
 }
 
@@ -114,7 +114,7 @@
     text-align: center;
     background-position: center;
     background-size: cover;
-    border-radius: 5rem;
+    border-radius: 3rem;
     box-shadow: 5px 5px 5vw 1vw rgba(0, 0, 0, 0.99);
 }
 
